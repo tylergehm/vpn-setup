@@ -96,6 +96,15 @@ Once signed in to Proton VPN, click the button that says "Connect". This will be
 Proton VPN automatically assigned the Windows 11 VM to a server in the Netherlands. 
 
 </p>
+<h2>Step 4 - Identifying new Local IP Address</h2>
+<img width="1474" height="722" alt="image" src="https://github.com/user-attachments/assets/b0c0075b-aeb1-4f7e-bbdd-79ccf07d69f9" />
 
-<img width="1489" height="773" alt="image" src="https://github.com/user-attachments/assets/77439aa0-c530-438e-b347-e98230183e54" />
+Returning to the website https://whatismyipaddress.com/; we can see that the VM has been assigned a new IP Address. </p>
+The new IP Address is 89.38.97.198 and is hosted by an Internet Service Provider called WorldStream B.V. The server of the new IP Address is located in Naaldwijk, Netherlands. 
 
+</p>
+<img width="1913" height="1018" alt="image" src="https://github.com/user-attachments/assets/0e8dbae5-137e-4925-83fb-b75db4b7d8e7" />
+As a secondary test, visiting the website http://www.google.com --- the website is written in Dutch, indicating that this is the Dutch version of Google. 
+
+<h2>Conclusion</h2>
+This project successfully demonstrated the setup and usage of Proton VPN within a Microsoft Azure Virtual Machine running Windows 11 Pro, showcasing how a VPN can mask a VM's public IP address to enhance privacy and enable access to region-specific content. By following the steps to identify the initial IP address, install and configure Proton VPN, and verify the new IP address, we confirmed the VPN's ability to reroute traffic through a server in the Netherlands, effectively changing the VM's apparent location from the Eastern United States to Naaldwijk, Netherlands, as evidenced by the updated IP address and access to the Dutch version of Google.
